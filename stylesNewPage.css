@@ -99,7 +99,7 @@ color:var(--cor_da_fonte)!important;
 		background-position: 3% 50%;
 	}
 }
-@media(max-width: 400px) {
+@media(max-width: 412px) {
 
     :root{
         --tamamo_Fonte: 12px;
