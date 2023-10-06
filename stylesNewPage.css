@@ -184,8 +184,8 @@
     }
 
     .gradient {
-        width: 100vw;
-        height: 100vh;
+        width: 300vw;
+        height: 300vh;
         background: linear-gradient(#fafbfc, #ffF, #d5f3e3, rgb(133, 231, 248));
         background-size: 100% 100%;
         animation: gradient-animation 6s ease infinite;
