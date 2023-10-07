@@ -186,6 +186,116 @@
     .gradient {
         width: 100vw;
         height: 100vh;
+        background: linear-gradient( #ABC0C3, #C8DADD, #ABC0C3);
+        background-size: 100% 100%;
+        animation: gradient-animation 6s ease infinite;
+
+    }
+}
+
+@keyframes gradient-animation {
+    20% {
+        background-position: 30% 70%;
+    }
+
+    50% {
+        background-position: 10% 50%;
+    }
+
+    80% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+/* Mobile */
+@media(max-width:393px){
+
+    :root{
+        --tamamo_Fonte: 12px;
+        --letras:Arial, Helvetica, sans-serif;
+        --cor_da_fonte: #545454;
+        --tamanho_letra_segundaria:25px;
+        --tamanho-titulos:30px;
+        
+    }
+
+    .navbar navbar-expand-lg bg-body-tertiary {
+        color: var(--cor_da_fonte) !important;
+        font-style: var(--letras) !important;
+        font-size: 35px !important;
+    }
+
+    .nav-link:houve {
+        color: red !important;
+
+    }
+
+    .titulo {
+
+        font-size: var(--tamanho-titulos);
+        color: var(--cor_da_fonte);
+        font-style: var(--letras);
+        text-align: left;
+        border-left: 1px solid red;
+        margin: 120px 5px 40px 0px;
+
+
+
+    }
+
+    .subtitulo {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor_da_fonte);
+        font-style: var(--letras);
+        margin: 5px 10px 0px 40px;
+        text-align: left;
+        
+
+    }
+    .subtitulo2 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor_da_fonte);
+        font-style: var(--letras);
+        margin: 50px 0px 0px -10px;
+        text-align: left;
+        
+
+    }
+    .subtitulo3 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor_da_fonte);
+        font-style: var(--letras);
+        margin: 5px 0px 0px 200px;
+        text-align: left;
+        
+
+    }
+
+    .container-image {
+        width: 555px;
+        margin: -520px 0px 0px 900px;
+    }
+
+    .heart {
+        margin: 90px 0px 0px 100px;
+    }
+
+    .Logo-reino {
+        width: 60px;
+        margin-top: 0px;
+    }
+
+    .inicio_reino {
+        width: 755px;
+        align-items: center;
+        margin: -10px 0px 0px 950px;
+    }
+
+    .gradient {
+        width: 100vw;
+        height: 100vh;
         background: linear-gradient(#fafbfc, #ffF, #d5f3e3, rgb(133, 231, 248));
         background-size: 100% 100%;
         animation: gradient-animation 6s ease infinite;
@@ -207,8 +317,9 @@
     }
 }
 
+
 /* Mobile */
-@media(-webkit-min-device-pixel-ratio: 0) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 3) and @media(max-width: 300px){
+@media(-webkit-min-device-pixel-ratio: 1) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 3){
 
     :root{
         --tamamo_Fonte: 12px;
@@ -292,10 +403,10 @@
     }
 
     .gradient {
-        width: 400vw;
-        height: 400vh;
+        width: 100vw;
+        height: 100vh;
         background: linear-gradient(#fafbfc, #ffF, #d5f3e3, rgb(133, 231, 248));
-        background-size: 100%;
+        background-size: 100% 100%;
         animation: gradient-animation 6s ease infinite;
 
     }
