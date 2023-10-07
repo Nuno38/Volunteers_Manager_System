@@ -1,0 +1,64 @@
+
+:root{
+    --tamamo_Fonte: 22px;
+    --letras:Arial, Helvetica, sans-serif;
+    --cor-titulos: #77736f;
+    --cor-menu:black;
+    --tamanho_letra_segundaria:35px;
+    --tamanho-titulos:60px;
+    
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    background-color: rgb(210, 231, 233) !important;
+    border-radius: 16px !important;
+    width: auto !important;
+}
+.nav-item a{
+    color:var(--cor-menu)!important;
+    font-style: var(--letras)!important;
+    font-size: var(--tamamo_Fonte) !important;
+
+}
+.formulario{
+    margin-top: 90px;
+}
+
+.form-label{
+    border: #77736f;
+}
+
+.form-control{
+    margin-top: 0px;
+     width:750px !important;
+     
+}
+ .heart{
+    width: 190px;
+    margin: -10px 0px 0px 890px;
+ }
+.Logo-reino{
+    width: 50px;
+    margin-top: 0px;
+    }
+    
+
+.gradient {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(#fafbfc, #ffF,#d5f3e3,rgb(133, 231, 248));
+	background-size: 100%;
+	animation: gradient-animation 6s ease infinite;
+    
+}
+.container-fluid{
+
+    margin: auto;
+    padding: auto;
+}
