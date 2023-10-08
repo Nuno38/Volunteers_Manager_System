@@ -89,7 +89,7 @@
         width: 100vw;
         height: 100vh;
         background: linear-gradient( #ABC0C3, #C8DADD, #ABC0C3);
-        background-size: 100% 100%;
+        background-size: 100%;
         animation: gradient-animation 6s ease infinite;
 
     }
@@ -112,7 +112,7 @@
 
 
 /* Mobile */
-@media(max-width:393px){
+@media(max-width:320px) and (max-width:390px){
 
     :root{
         --tamamo_Fonte: 12px;
@@ -196,10 +196,10 @@
     }
 
     .gradient {
-        width: 100vw;
-        height: 100vh;
+        width: 200vw;
+        height: 200vh;
         background: linear-gradient(#fafbfc, #ffF, #d5f3e3, rgb(133, 231, 248));
-        background-size: 100% 100%;
+        background-size: 100%;
         animation: gradient-animation 6s ease infinite;
 
     }
