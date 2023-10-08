@@ -1,5 +1,5 @@
 :root {
-    --tamamo_Fonte: 22px;
+    --tamamo_Fonte: 12px;
     --letras: Arial, Helvetica, sans-serif;
     --cor-titulos: #77736f;
     --cor-menu: black;
@@ -18,7 +18,7 @@
 .navbar {
     background-color: rgb(210, 231, 233) !important;
     border-radius: 16px !important;
-    width: auto !important;
+    
 }
 
 .nav-item a {
