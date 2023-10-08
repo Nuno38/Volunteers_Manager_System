@@ -1,5 +1,5 @@
 :root {
-    --tamamo_Fonte: 12px;
+    --tamamo_Fonte: 22px;
     --letras: Arial, Helvetica, sans-serif;
     --cor-titulos: #77736f;
     --cor-menu: black;
@@ -16,9 +16,9 @@
 }
 
 .navbar {
-    background-color: rgb(210, 231, 233) !important;
+    background-color: #C8DADD !important;
     border-radius: 16px !important;
-    
+    width: auto !important;
 }
 
 .nav-item a {
@@ -28,19 +28,9 @@
 
 }
 
-.formulario {
-    margin-top: 90px;
-
-}
-
-.form-label {
-    border: #77736f;
-}
-
-.form-control {
-    margin-top: 0px;
-    width: 750px !important;
-
+.form-titulo{
+    text-align: center;
+    border-left: 1px red;
 }
 
 .heart {
@@ -61,9 +51,31 @@
 
 .gradient {
     width: 100vw;
-    height: 200vh;
-    background: linear-gradient(#fafbfc, #ffF, #d5f3e3, rgb(133, 231, 248));
+    height: 100vh;
+    background: linear-gradient(#fafbfc,#C8DADD,#ABC0C3);
     background-size: 100%;
     animation: gradient-animation 6s ease infinite;
 
+}
+
+.formulario{
+    align-items:center ;
+}
+
+.form-titulo{
+    color: var(--cor-titulos);
+}
+
+@keyframes gradient-animation {
+    20% {
+        background-position: 0% 70%;
+    }
+
+    50% {
+        background-position: 10% 50%;
+    }
+
+    80% {
+        background-position: 0% 70%;
+    }
 }

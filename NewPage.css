@@ -1,0 +1,407 @@
+
+
+:root{
+    --tamamo_Fonte: 22px;
+    --letras:Arial, Helvetica, sans-serif;
+    --cor-titulos: #77736f;
+    --cor-menu:black;
+    --tamanho_letra_segundaria:35px;
+    --tamanho-titulos:60px;
+    
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    background-color: #C8DADD !important;
+    border-radius: 16px !important;
+}
+.nav-item a{
+    color:var(--cor-menu)!important;
+    font-style: var(--letras)!important;
+    font-size: var(--tamamo_Fonte) !important;
+
+}
+.titulo{
+
+    font-size: var(--tamanho-titulos)!important;
+    color: var(--cor-titulos);
+    font-style: var(--letras);
+    text-align: left;
+    border-left: 1px solid red;
+    margin: 250px -90px 0px ;
+    
+       
+    
+}.subtitulo{
+    font-size:var(--tamanho_letra_segundaria);
+    color: var(--cor-titulos);
+    font-style: var(--letras);
+    margin: 6px 0px 0px 60px ;
+    text-align: left;
+
+}
+.subtitulo2{
+    font-size:var(--tamanho_letra_segundaria);
+    color: var(--cor-titulos);
+    font-style: var(--letras);
+    margin: 50px 0px 0px -250px ;
+    text-align: left;
+
+}
+
+.subtitulo3{
+    font-size:var(--tamanho_letra_segundaria);
+    color: var(--cor-titulos);
+    font-style: var(--letras);
+    margin: 8px 0px 0px 320px ;
+    text-align: left;
+
+}
+
+.container-image{
+    width: 555px;
+    margin: -520px 0px 0px 00px;
+}
+ .heart{
+    width: 190px;
+    margin: -10px 0px 0px 890px;
+ }
+.Logo-reino{
+    width: 50px;
+    margin-top: 0px;
+    }
+    
+
+.gradient {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(#fafbfc,#C8DADD,#ABC0C3);
+	background-size: 100%;
+	animation: gradient-animation 6s ease infinite;
+    
+}
+
+@keyframes gradient-animation {
+	20% {
+		background-position: 5% 70%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	80% {
+		background-position: 3% 50%;
+	}
+}
+
+
+/* Mobile */
+@media(-webkit-min-device-pixel-ratio: 1) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 3){
+
+
+    .navbar {
+       
+        font-style: var(--letras) !important;
+        font-size: 35px !important;
+    }
+
+    .nav-link:houve {
+        color: red !important;
+
+    }
+
+    .titulo {
+
+        font-size: 40px !important;
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        text-align: left;
+        border-left: 1px solid red;
+        margin: 190px 0px 0px 80px ;
+
+
+
+    }
+
+    .subtitulo {
+        font-size: 25px !important;
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 5px 10px 0px 40px;
+        text-align: left;
+        
+
+    }
+    .subtitulo2 {
+        font-size: 25px !important;
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 50px 0px 0px -10px;
+        text-align: left;
+        
+
+    }
+    .subtitulo3 {
+        font-size: 25px !important;
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 5px 0px 0px 200px;
+        text-align: left;
+        
+
+    }
+
+    .container-image {
+        width: 555px;
+        margin: -520px 0px 0px 900px;
+    }
+
+    .heart {
+        margin: 90px 0px 0px 100px;
+    }
+
+    .Logo-reino {
+        width: 60px;
+        margin-top: 0px;
+    }
+
+    .inicio_reino {
+        width: 755px;
+        align-items: center;
+        margin: -10px 0px 0px 950px;
+    }
+
+
+
+   
+
+    /* Tablet */
+@media(min-width:1000px) and (max-width:1200px){
+
+
+    .navbar{
+        color: var(--cor_da_fonte) !important;
+        font-style: var(--letras) !important;
+        font-size: 35px !important;
+    }
+
+    .nav-link:houve {
+        color: red !important;
+
+    }
+
+    .titulo {
+
+        font-size:32px !important;
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        text-align: left;
+        border-left: 1px solid red;
+        margin: 90px 5px 40px 30px;
+
+
+
+    }
+
+    .subtitulo {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: 25px !important;
+        margin: 5px 10px 0px 80px;
+        text-align: left;
+        
+
+    }
+    .subtitulo2 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: 25px !important;
+        margin: 50px 0px 0px -10px;
+        text-align: left;
+        
+
+    }
+    .subtitulo3 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 5px 0px 0px 200px;
+        text-align: left;
+        
+
+    }
+
+    .container-image {
+        width: 555px;
+        margin: -520px 0px 0px 900px;
+    }
+
+    .heart {
+        margin: 90px 0px 0px 100px;
+    }
+
+    .Logo-reino {
+        width: 60px;
+        margin-top: 0px;
+    }
+
+    .inicio_reino {
+        width: 755px;
+        align-items: center;
+        margin: -10px 0px 0px 950px;
+    }
+}
+
+@media(min-width:410px) and (max-width:590px){
+
+
+    .nav-link:houve {
+        color: red !important;
+
+    }
+
+    .titulo {
+
+        font-size:32px !important;
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        text-align: left;
+        border-left: 1px solid red;
+        margin: 90px 5px 40px 90px;
+
+
+
+    }
+
+    .subtitulo {
+        font-size: 25px !important;
+        color: var(--cor-titulos);
+        font-style: 25px !important;
+        margin: 5px 10px 0px 40px;
+        text-align: left;
+        
+
+    }
+    .subtitulo2 {
+        font-size: 25px !important;
+        color: var(--cor-titulos);
+        font-style: 25px !important;
+        margin: 50px 0px 0px -10px;
+        text-align: left;
+        
+
+    }
+    .subtitulo3 {
+        font-size: 25px !important;
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 5px 0px 0px 200px;
+        text-align: left;
+        
+
+    }
+
+    .container-image {
+        width: 555px;
+        margin: -520px 0px 0px 900px;
+    }
+
+    .heart {
+        margin: 90px 0px 0px 100px;
+    }
+
+    .Logo-reino {
+        width: 60px;
+        margin-top: 0px;
+    }
+
+    .inicio_reino {
+        width: 755px;
+        align-items: center;
+        margin: -10px 0px 0px 950px;
+    }
+}
+
+}
+
+/* Mobile */
+@media(min-width:370px) and (max-width:412px){
+
+
+    .navbar{
+        color: var(--cor_da_fonte) !important;
+        font-style: var(--letras) !important;
+        font-size: 35px !important;
+    }
+
+    .nav-link:houve {
+        color: red !important;
+
+    }
+
+    .titulo {
+
+        font-size:32px !important;
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        text-align: left;
+        border-left: 1px solid red;
+        margin: 90px 5px 40px 30px;
+
+
+
+    }
+
+    .subtitulo {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: 25px !important;
+        margin: 5px 10px 0px 40px;
+        text-align: left;
+        
+
+    }
+    .subtitulo2 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: 25px !important;
+        margin: 50px 0px 0px -10px;
+        text-align: left;
+        
+
+    }
+    .subtitulo3 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 5px 0px 0px 200px;
+        text-align: left;
+        
+
+    }
+
+    .container-image {
+        width: 555px;
+        margin: -520px 0px 0px 900px;
+    }
+
+    .heart {
+        margin: 90px 0px 0px 100px;
+    }
+
+    .Logo-reino {
+        width: 60px;
+        margin-top: 0px;
+    }
+
+    .inicio_reino {
+        width: 755px;
+        align-items: center;
+        margin: -10px 0px 0px 950px;
+    }
+
+}
