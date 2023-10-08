@@ -1,64 +1,69 @@
-
-:root{
+:root {
     --tamamo_Fonte: 22px;
-    --letras:Arial, Helvetica, sans-serif;
+    --letras: Arial, Helvetica, sans-serif;
     --cor-titulos: #77736f;
-    --cor-menu:black;
-    --tamanho_letra_segundaria:35px;
-    --tamanho-titulos:60px;
-    
+    --cor-menu: black;
+    --tamanho_letra_segundaria: 35px;
+    --tamanho-titulos: 60px;
+
 }
-*{
+
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 
 }
 
-.navbar{
+.navbar {
     background-color: rgb(210, 231, 233) !important;
     border-radius: 16px !important;
     width: auto !important;
 }
-.nav-item a{
-    color:var(--cor-menu)!important;
-    font-style: var(--letras)!important;
+
+.nav-item a {
+    color: var(--cor-menu) !important;
+    font-style: var(--letras) !important;
     font-size: var(--tamamo_Fonte) !important;
 
 }
-.formulario{
+
+.formulario {
     margin-top: 90px;
+
 }
 
-.form-label{
+.form-label {
     border: #77736f;
 }
 
-.form-control{
+.form-control {
     margin-top: 0px;
-     width:750px !important;
-     
+    width: 750px !important;
+
 }
- .heart{
+
+.heart {
     width: 190px;
     margin: -10px 0px 0px 890px;
- }
-.Logo-reino{
+}
+
+.Logo-reino {
     width: 50px;
     margin-top: 0px;
-    }
-    
-
-.gradient {
-	width: 100vw;
-	height: 100vh;
-	background: linear-gradient(#fafbfc, #ffF,#d5f3e3,rgb(133, 231, 248));
-	background-size: 100%;
-	animation: gradient-animation 6s ease infinite;
-    
 }
-.container-fluid{
+
+.container-fluid {
 
     margin: auto;
     padding: auto;
+}
+
+.gradient {
+    width: 100vw;
+    height: 200vh;
+    background: linear-gradient(#fafbfc, #ffF, #d5f3e3, rgb(133, 231, 248));
+    background-size: 100%;
+    animation: gradient-animation 6s ease infinite;
+
 }
