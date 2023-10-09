@@ -30,8 +30,20 @@
 
 .form-titulo{
     text-align: center;
-    border-left: 1px red;
+    border-width:15px !important;
+    border: 1px solid white !important;
+    background-color: white !important;
+    border-width: 0px;
 }
+
+.subtitulo{
+    border: 2px solid white !important;
+    text-align: center;
+    margin: -10px 0px 0px 0px;
+   
+    
+}
+
 
 .heart {
     width: 190px;
@@ -51,7 +63,7 @@
 
 .gradient {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background: linear-gradient(#fafbfc,#C8DADD,#ABC0C3);
     background-size: 100%;
     animation: gradient-animation 6s ease infinite;
@@ -59,7 +71,7 @@
 }
 
 .formulario{
-    align-items:center ;
+    align-items:center !important;
 }
 
 .form-titulo{

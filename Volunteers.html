@@ -5,10 +5,12 @@
   <title>Reino church</title>
   <meta name="viewport" content="width=device-width, initial-scale= 1, maximum-scale= 1.0">
   <meta name="keywords" content="Volunteers, Reino Church, Eduardo reis, igreja Reino">
-  <meta name="descripition" content="Reino Churh">
-  <link rel="icon" type="image/x-icon " href="Favicon-Reino.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="mobile.css">
+  <meta name="descripition" content="Reino Churh" />
+  <link rel="icon" type="image/x-icon " href="../Volunteers_Manager System.bootstrap/imagens/Favicon-Reino.png">
+  <link rel="stylesheet" href="reset.css/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../Volunteers_Manager System.bootstrap/Css/mobile.css">
 </head>
 
 <body>
@@ -16,7 +18,7 @@
   <div class="gradient">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="rno_logo.png"
+        <a class="navbar-brand" href="#"><img src="../Volunteers_Manager System.bootstrap/imagens/rno_logo.png"
             class="Logo-reino"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,86 +50,158 @@
     <div class="formulario">
       <br>
       <br>
-      <h1 class="form-titulo"> Deseja ser um voluntário?</h1>
+      
+      <h1 class="form-titulo"> QUEREMOS TE CONHECER</h1>
+       <br>
       <form class="form-volunteer">
 
-        <div class="input-group input-group-sm mb-3">
-          <span class="input-group-text" id="Nome">Nome</span>
-          <input type="text" class="form-control" name="Nome" aria-describedby="Nome-sizing-sm">
-        </div>
-       
-      <hr>
-         <h2 class="form-titulo"> Areás verdes </h2>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Front loby" value="Front loby">
-          <label class="form-check-label" for="Front loby">Front loby</label>
-        </div>
-
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Hospitalidade" value="Hospitalidade">
-          <label class="form-check-label" for="inlineRadio2">Hospitalidade</label>
-        </div>
-
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Net up" value="Next up" >
-          <label class="form-check-label" for="Next up">Next up</label>
-        </div>
-
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Parking Team" value="Parking Team" >
-          <label class="form-check-label" for="Parking Team">Parking Team</label>
-        </div>
-        
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Auditorio" value="auditorio" >
-          <label class="form-check-label" for="Next up">Auditótio</label>
-        </div>
-
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Setup" value="Setup" >
-          <label class="form-check-label" for="Next up">Setup</label>
-        </div>
-
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Merch" value="Merch" >
-          <label class="form-check-label" for="Merch">Merch</label>
-        </div>
-
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Style" value="Style" >
-          <label class="form-check-label" for="style">Style</label>
-        </div>
-        <hr>
-        <h2 class="form-titulo"> Áreas vermelhas</h2>
-
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Creativo" value="Creativo" >
-          <label class="form-check-label" for="Creativo">Creativo</label>
-        </div>
+        <form class="row gx-3 gy-2 align-items-center">
+          <div class="col-sm-3">
+            <label class="visually-hidden" for="Nome">Name</label>
+            <input type="text" class="form-control" id="Nome" placeholder="Nome">
+          </div>
+          <br>
+          <div class="col-sm-3">
+            <label class="visually-hidden" for="E-mail">E-mail</label>
+            <div class="input-group">
+              <div class="input-group-text">@</div>
+              <input type="text" class="form-control" id="E-mail" placeholder="Email">
+            </div>
+            <br>
+          </div>
+          <div class="col-sm-3">
+            <label class="visually-hidden" for="Telefone">Telefone</label>
+            <input type="number" class="form-control" id="Telefone" placeholder="Telefone">
+          </div>
+          <br>
           
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Kids" value="Kids" >
-          <label class="form-check-label" for="Kids">Kids</label>
-        </div>
+          <div class="col-sm-3">
+            <label class="visually-hidden" for="Data de nascimento"></label>
+            <input type="text" class="form-control" id="Data de nascimento" placeholder="Data de nascimento">
+          </div>
+          <br>
+          
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="Sexo" id="Homem"
+              value="Front loby">
+            <label class="form-check-label" for="Homem">Homem</label>
+          </div>
 
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Ensino" value="Ensino" >
-          <label class="form-check-label" for="Ensino">Ensino</label>
-        </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="Sexo" id="Mulher"
+              value="Front loby">
+            <label class="form-check-label" for="Mulher">Mulher</label>
+          </div>
+          <hr>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="Primeira vez" id="Primeira vez"
+              value="Front loby">
+            <label class="form-check-label" for="Primeira vez">Essa é minha Primeira vez na Reino</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="Deja o DNA" id="Deseja o DNA"
+              value="Front loby">
+            <label class="form-check-label" for="Deseja o DNA">Gostaria de participar do curso DNA do Reino</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="Deseja o Curso essentials" id="Deseja o curso essentials"
+              value="Front loby">
+            <label class="form-check-label" for="Deseja o curso essentials">Gostaria de participar do curso Essentials.  </label>
+          </div>
+          <br>
+          <br>
+          <div>
+          <span class="espacoTitulo"><h2 class="form-titulo"> QUER SER UM VOLUNTÀRIO? </h2></span>
+          </div>
+          
+        
+          <h3 class="subtitulo"> Nós amamos a Jesus e amamos as pessoas.</h3>
+           
+             <br>
+             <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" name="Deseja ser um voluntário" id="Front loby"
+                value="Front loby">
+              <label class="form-check-label" for="Front loby">Sim, desejo ser um Voluntário.</label>
+            </div>
+             <hr>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Front loby"
+              value="Front loby">
+            <label class="form-check-label" for="Front loby">Front loby</label>
+          </div>
 
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Workiship" value="Workiship" >
-          <label class="form-check-label" for="Workiship">Workiship</label>
-        </div>
-      </form>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Hospitalidade"
+              value="Hospitalidade">
+            <label class="form-check-label" for="inlineRadio2">Hospitalidade</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Net up" value="Next up">
+            <label class="form-check-label" for="Next up">Next up</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Parking Team"
+              value="Parking Team">
+            <label class="form-check-label" for="Parking Team">Parking Team</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Auditorio" value="auditorio">
+            <label class="form-check-label" for="Next up">Auditótio</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Setup" value="Setup">
+            <label class="form-check-label" for="Next up">Setup</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Merch" value="Merch">
+            <label class="form-check-label" for="Merch">Merch</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Style" value="Style">
+            <label class="form-check-label" for="style">Style</label>
+          </div>
+
+           <hr>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Creativo" value="Creativo">
+            <label class="form-check-label" for="Creativo">Creativo</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Kids" value="Kids">
+            <label class="form-check-label" for="Kids">Kids</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Ensino" value="Ensino">
+            <label class="form-check-label" for="Ensino">Ensino</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="Workiship" value="Workiship">
+            <label class="form-check-label" for="Workiship">Workiship</label>
+          </div>
+              <br>
+              <br>
+              <br>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
     </div>
-    
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
