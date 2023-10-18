@@ -20,7 +20,12 @@
     font-size: var(--tamamo_Fonte) !important;
 
 }
-.container{
+
+.nav-item a:hover {
+    color: rgb(117, 65, 65) !important;
+}
+
+.container {
     margin: 100px 0px 0px -10px;
 }
 
@@ -31,13 +36,13 @@
     font-style: var(--letras);
     text-align: left;
     border-left: 1px solid red;
-    margin: 270px 0px -20px;
+    margin: 270px 0px -18px;
 
 
 
 }
 
-.subtitulo1{
+.subtitulo1 {
     font-size: var(--tamanho_letra_segundaria);
     color: var(--cor-titulos);
     font-style: var(--letras);
@@ -82,7 +87,7 @@
 
 .heart {
     width: 190px;
-    margin: -10px 0px 0px 890px;
+    margin: -10px 0px 0px 1090px;
 }
 
 .Logo-reino {
@@ -114,23 +119,64 @@
     }
 }
 
-@media (min-width: 350px){
+@media (min-width: 350px) {
 
 
-    .heart{
+    .heart {
         margin: 50px 0px 0px -130px !important;
     }
+
     .titulo {
 
-        font-size: var(--tamanho-titulos) !important;
+        font-size: 45px !important;
         color: var(--cor-titulos);
         font-style: var(--letras);
         text-align: left;
         border-left: 1px solid red;
-        margin: 50px 30px 0px;
+        margin: 50px 30px 10px;
 
-    
+
+    }
+
+    .subtitulo1 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 0px 0px 0px 80px;
+        text-align: left;
+
+    }
+
+    .subtitulo2 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 0px 0px 0px 150px;
+        text-align: left;
+
+    }
+
+    .subtitulo3 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 0px 0px 0px 240px;
+        text-align: left;
+
+    }
+
+    .subtitulo4 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 8px 0px 0px 320px;
+        text-align: left;
+
+    }
+
+    .heart {
+        width: 190px;
+        margin: -10px 0px 0px 890px;
     }
 
 }
-    

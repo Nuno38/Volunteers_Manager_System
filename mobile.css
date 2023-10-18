@@ -25,7 +25,11 @@
     color: var(--cor-menu) !important;
     font-style: var(--letras) !important;
     font-size: var(--tamamo_Fonte) !important;
+     
 
+}
+.nav-item a:hover{
+    color: rgb(117, 65, 65) !important;
 }
 
 .form-titulo{
@@ -101,3 +105,5 @@
         background-position: 0% 70%;
     }
 }
+
+
