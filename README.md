@@ -54,12 +54,13 @@ Queda de energia da celesc	Eminente
 
 3.	Cronograma 
 
-Tarefas	Início	Término
-Levantamento de Requisitos	13/09/23	17/09/23
-Desenvolvimento designer	20/09/23	28/09/23
-Desenvolvimento de sistema	28/09/23	15/10/23
-Der e Mer	22/09/23	24/09/23
-Fluxo grama	17/09/23	19/09/2023
+|Tarefas	Início	Término|
+|-|
+|Levantamento de Requisitos:	13/09/23	- 17/09/23:
+|Desenvolvimento designer:	20/09/23	- 28/09/23|
+|Desenvolvimento de sistema:	28/09/23 - 15/10/23|
+|Der e Mer:	22/09/23 - 24/09/23|
+|Fluxo grama:	17/09/23 - 19/09/2023|
 
 4.	Documentação Regras de Negócio
 <BR>
