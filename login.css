@@ -8,7 +8,6 @@
 .form-control {
     width: 90% !important;
     height: 38px !important;
-    
    align-items: center !important;
     line-height: 1.42857143 !important;
 
@@ -22,4 +21,5 @@
 .form-group{
     line-height: 1.42857143 !important;
     margin-left: 35px !important;
+    
 }

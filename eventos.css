@@ -1,0 +1,12 @@
+@import url(Lideres.css);
+@import url(android.css);
+
+
+.tituloEventos{
+ color: var(--cor-titulos) !important;
+}
+.linhaTitulo{
+    
+    margin: -18px 0px 0px 320px;
+}
+
