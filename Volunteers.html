@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale= 1, maximum-scale= 1">
   <meta name="keywords" content="Volunteers, Reino Church, Eduardo reis, igreja Reino">
   <meta name="descripition" content="Reino Churh" />
-  <link rel="icon" type="image/x-icon " href="Favicon-Reino.png">
+  <link rel="icon" type="image/x-icon " href="../Volunteers_Manager System.bootstrap/imagens/Favicon-Reino.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="../Volunteers_Manager System.bootstrap/Css/mobile.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
   <div class="gradient">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="rno_logo.png"
+        <a class="navbar-brand" href="#"><img src="../Volunteers_Manager System.bootstrap/imagens/rno_logo.png"
             class="Logo-reino"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,7 +108,7 @@
             <br>
             <div>
               <span class="espacoTitulo">
-                <h2 class="form-titulo"> QUER SER UM VOLUNTÀRIO? </h2>
+                <h2 class="form-titulo"> QUER SER UM VOLUNTÁRIO? </h2>
               </span>
             </div>
 
@@ -122,74 +122,83 @@
               <label class="form-check-label" for="Deseja ser voluntario">Sim, desejo ser um Voluntário.</label>
             </div>
             <hr>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Front loby">
-              <label class="form-check-label" for="Front loby">Front loby</label>
-            </div>
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Hospitalidade">
-              <label class="form-check-label" for="inlineRadio2">Hospitalidade</label>
-            </div>
-
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Next Step">
-              <label class="form-check-label" for="Next Step">Next Step</label>
-            </div>
-
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Production">
-              <label class="form-check-label" for="Production">Production</label>
-            </div>
-
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Follow UP">
-              <label class="form-check-label" for="Follow UP">Follow UP</label>
-            </div>
-
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Parking Team">
-              <label class="form-check-label" for="Parking Team">Parking Team</label>
-            </div>
-
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Auditorium">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Auditorium">
               <label class="form-check-label" for="Auditorium">Auditorium</label>
             </div>
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Setup">
-              <label class="form-check-label" for="Setup">Set Up</label>
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Front loby">
+              <label class="form-check-label" for="Front loby">Front loby</label>
+            </div>
+
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Follow UP">
+              <label class="form-check-label" for="Follow UP">Follow UP</label>
             </div>
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Merch">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers"
+                value="Hospitalidade">
+              <label class="form-check-label" for="inlineRadio2">Hospitalidade</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Merch">
               <label class="form-check-label" for="Merch">Merch</label>
             </div>
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Style">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Next Step">
+              <label class="form-check-label" for="Next Step">Next Step</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Production">
+              <label class="form-check-label" for="Production">Production</label>
+            </div>
+
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers"
+                value="Parking Team">
+              <label class="form-check-label" for="Parking Team">Parking Team</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Setup">
+              <label class="form-check-label" for="Setup">Set Up</label>
+            </div>
+
+
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Style">
               <label class="form-check-label" for="style">Style</label>
             </div>
 
             <hr>
+
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Creativo">
-              <label class="form-check-label" for="Creativo">Creativo</label>
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Creativo">
+              <label class="form-check-label" for="Creativo">Creative</label>
             </div>
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Kids">
-              <label class="form-check-label" for="Kids">Kids</label>
-            </div>
-
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Ensino">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Ensino">
               <label class="form-check-label" for="Ensino">Ensino</label>
             </div>
 
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" name="Volunteers" value="Worship">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Kids">
+              <label class="form-check-label" for="Kids">Kids</label>
+            </div>
+
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" onclick="escolha()" type="checkbox" name="Volunteers" value="Worship">
               <label class="form-check-label" for="Workiship">Worship</label>
             </div>
             <br>
@@ -214,11 +223,11 @@
               <button type="submit" onclick="cadastroRealizado()" class="btn btn-primary">Enviar</button>
             </div>
             <div class="logoWhite"><img class="logoWhite"
-                src="rno_logo-branco.png"></div>
+                src="../Volunteers_Manager System.bootstrap/imagens/rno_logo-branco.png"></div>
           </form>
       </div>
 
-      
+
 
 
 
@@ -228,6 +237,39 @@
       function cadastroRealizado() {
         const alertTrigger = Function;
         alert("Dados enviados com Sucesso!");
+      }
+    </script>
+
+
+
+    <script>
+      var CheckMaximo = 3;
+
+      function escolha() {
+        var Marcados = 1;
+        var objCheck = document.forms['row gx-3 gy-2 align-items-center'].elements['Volunteers'];
+
+        //Percorrendo os checks para ver quantos foram selecionados:
+        for (var iLoop = 0; iLoop < objCheck.length; iLoop++) {
+          //Se o número máximo de checkboxes ainda não tiver sido atingido, continua a verificação:
+          if (Marcados <= CheckMaximo) {
+            if (objCheck[iLoop].checked) {
+              Marcados++;
+            }
+            //Habilitando todos os checkboxes, pois o máximo ainda não foi alcançado.
+            for (var i = 0; i < objCheck.length; i++) {
+              objCheck[i].disabled = false;
+            }
+            //Caso contrário, desabilitar o checkbox;
+            //Nesse caso, é necessário percorrer todas as opções novamente, desabilitando as não checadas;
+          } else {
+            for (var i = 0; i < objCheck.length; i++) {
+              if (objCheck[i].checked == false) {
+                objCheck[i].disabled = true;
+              }
+            }
+          }
+        }
       }
     </script>
 
