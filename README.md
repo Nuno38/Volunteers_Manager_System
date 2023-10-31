@@ -21,7 +21,7 @@ GUITHUB (Plataforma de desenvolvimento colaborativo e controle de versões)
 
 
 
-🧭	Objetivo
+[]	Objetivo
 O sistema será desenvolvido para auxiliar as escalas dos voluntários e indicará a saúde dos nossos voluntários, oferecendo em tempo real como está cada voluntário, podendo auxiliar as lideranças e pastores há monitorar suas equipes e membros ativos introduzindo todas as informações no banco de dados, onde poderá ser realizado verificação das informações inseridas.
 
 Será desenvolvido por partes e ao longo da sua vida útil será acrescentado novas funções, será gerada uma nova atualização deste documento para fins futuros, proporcionando um melhor entendimento da equipe durante o ciclo de vida do sistema.
