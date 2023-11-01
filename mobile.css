@@ -38,7 +38,7 @@
     border-width: 15px !important;
     border: 1px solid white !important;
     background-color: white !important;
-    border-width: 0px;
+    
 }
 
 .subtitulo {
@@ -61,13 +61,13 @@
 }
 
 .Logo-reino {
-    width: 50px;
+    width: 40px;
     margin-top: 0px;
 }
 
 .logoWhite {
     width: 95px;
-    margin: -20px 0px 0px 150px;
+    margin: -23px 0px 0px 130px;
 
 }
 
@@ -86,10 +86,13 @@
     color: var(--cor-titulos);
 }
 
+.btn{
+    margin-top: 20px;
+}
+
 
 .gradient {
-    width: 100vw;
-    height: 200vh;
+   
     background: linear-gradient(#fafbfc, #C8DADD, #ABC0C3);
     background-size: 100%;
     animation: gradient-animation 6s ease infinite;
