@@ -1,5 +1,5 @@
-@import url(Lideres.css);
-@import url(android.css);
+@import url(mobile.css);
+
 
 
 .tituloEventos{
@@ -14,4 +14,7 @@
 }
 .card{
     margin: 0px 0px 0px 10px;
+}
+.flex-shrink-0{
+    width: 345px;
 }
