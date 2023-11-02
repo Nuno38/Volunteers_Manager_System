@@ -1,3 +1,6 @@
+@import url(Queries.css);
+
+
 :root {
     --tamamo_Fonte: 22px;
     --letras: Arial, Helvetica, sans-serif;
@@ -104,7 +107,7 @@
 
 .gradient {
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
     background: linear-gradient(#fafbfc, #C8DADD, #ABC0C3);
     background-size: 100%;
     animation: gradient-animation 6s ease infinite;
@@ -125,11 +128,11 @@
     }
 }
 
-@media (min-width: 350px) {
+@media (min-width: 350px) and (max-width:550px){
 
 
     .heart {
-        margin: 50px 0px 0px -130px !important;
+        margin: 50px 0px 0px -140px !important;
     }
 
     .titulo {
@@ -185,4 +188,61 @@
         margin: -10px 0px 0px 890px;
     }
 
+}
+
+
+@media (min-width: 700px) and (max-width: 900px) {
+
+    .heart {
+        width: 190px;
+        margin: 0px 0px 0px 220px !important;
+    }
+
+    .titulo {
+
+        font-size: 65px !important;
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        text-align: left;
+        border-left: 1px solid red;
+        margin: 60px 0px 0px 30px !important;
+
+
+    }
+
+    .subtitulo1 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 10px 0px 0px 180px;
+        text-align: left;
+
+    }
+
+    .subtitulo2 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 10px 0px 0px 260px;
+        text-align: left;
+
+    }
+
+    .subtitulo3 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 10px 0px 0px 360px;
+        text-align: left;
+
+    }
+
+    .subtitulo4 {
+        font-size: var(--tamanho_letra_segundaria);
+        color: var(--cor-titulos);
+        font-style: var(--letras);
+        margin: 8px 0px 0px 320px;
+        text-align: left;
+
+    }
 }
