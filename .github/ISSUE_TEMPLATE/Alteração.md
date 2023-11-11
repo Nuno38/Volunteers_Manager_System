@@ -1,19 +1,20 @@
-# Descrição
+---
+name: Feature request
+about: Sugira uma ideia para este repositório
+title: "[SUGESTÃO]"
+labels: enhancement
+assignees: ''
 
-Descrição da alteração que está sendo proposta.
+---
 
-## Tipo de alteração
+**Sua sugestão está relacionada a um problema? Por favor descreva.**
+Uma descrição clara e concisa de qual é o problema.
 
-- [ ] Correção de bug
-- [ ] Nova funcionalidade
-- [ ] Alteração na documentação
-- [ ] Outro (especifique)
+**Descreva a solução que você gostaria**
+Uma descrição clara e concisa do que você quer que aconteça.
 
-## Checklist
+**Descreva as alternativas que você considerou**
+Uma descrição clara e concisa de quaisquer soluções ou recursos alternativos que você considerou.
 
-- [x] Minhas alterações não deletam partes do projeto
-- [x] Minhas alterações não introduzem novos problemas
-
-### Comentários adicionais
-
-Adicione aqui quaisquer comentários ou informações adicionais relevantes para o revisor.
+**Contexto adicional**
+Adicione qualquer outro contexto ou captura de tela sobre a solicitação de recurso aqui.
