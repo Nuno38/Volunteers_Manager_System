@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Volunteers, Reino Church, Eduardo reis, igreja Reino church">
+    <title>e-Reports Parking</title>
+    <link rel="icon" type="image/x-icon " href="Favicon-Reino.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="volunteer.css">
+</head>
+
+<body>
+    <div class="gradient">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Logo-reino.png"
+                        class="Logo-reino" alt=" Logo RNO cor black"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Volunteers.html">e-Connect</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Report_Paking.html">e-Parking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="telaLogin.html">Lideres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <div class="container">
+            <div class="formulario">
+                <br>
+                <br>
+
+                <h1 class="form-titulo"> e-Reports Parking Team</h1>
+                <br>
+                <form class="form-volunteer" action="#" method="">
+
+                    <div class="col-md-8">
+                        <label class="visually-hidden" for="Nome">Name</label>
+                        <input type="text" class="form-control" name="Nome do Volluntário" placeholder="Nome">
+                    </div>
+                    <br>
+                    <div class="col-md-8">
+
+                        <label class="visually-hidden" for="Data de nascimento"></label>
+                        <input type="date" class="form-control" name="Data" placeholder="Data">
+                    </div>
+
+                    <br>
+
+
+                    <br>
+                    <img src="Church.png" class="Icones">
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Tipo do evento" value="Reunião">
+                        <label class="form-check-label" for="Tipo do evento">Reunião</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Tipo do evento" value="Conferência">
+                        <label class="form-check-label" for="Tipo do evento">Conferência</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+
+                        <input class="form-check-input" type="radio" name="Tipo do evento" value="Curso">
+                        <label class="form-check-label" for="tipo do evento">Curso</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+
+                        <input class="form-check-input" type="radio" name="Tipo do evento" value="Evento">
+                        <label class="form-check-label" for="tipo do evento">Evento</label>
+                    </div>
+                    <hr>
+                    <img src="Time.png" class="Icones">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Horário" value="09 Hrs">
+                        <label class="form-check-label" for="Horário">09 Hrs</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Horário" value="11 Hrs">
+                        <label class="form-check-label" for="Horário">11 Hrs</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Horário" value="18 Hrs">
+                        <label class="form-check-label" for="Horário">18 Hrs</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Horário" value="20 Hrs">
+                        <label class="form-check-label" for="Horário">20 Hrs</label>
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <span class="espacoTitulo">
+                            <h2 class="form-titulo"> Contagem dos veículos </h2>
+                        </span>
+                    </div>
+
+                    <br>
+
+                    <div class="col-auto">
+                        <label class="text"><img src="carro.png"
+                                class="Icones" alt="imagem de carro uber"><br></b><strong>Carros</strong></label>
+                        <input type="number" class="form-control" id="carros" name="Carros placeholder=" Contagem">
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-primary" value="contador"
+                            onclick="contadorCarros()">+</button>
+                    </div>
+                    <br>
+
+                    <div class="col-auto">
+                        <label class="text"><img src="Moto.png" class="Icones"
+                                alt="imagem de carro uber"><br><strong>Motos</strong></label>
+                        <input type="number" class="form-control" id="moto" name="Motos" placeholder="0">
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-primary" value="motosCont"
+                            onclick="contadorMotos()">+</button>
+                    </div>
+
+                    <br>
+
+                    <div class="col-auto">
+                        <label class="text"><img src="Bike.png" class="Icones"
+                                alt="imagem de carro uber"><br><strong>Bicicleta</strong></label>
+                        <input type="number" class="form-control" id="bicicleta" name="Bicicletas" placeholder="0">
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-primary" value="biciletaCont"
+                            onclick="contadorBicicleta()">+</button>
+                    </div>
+
+                    <br>
+
+                    <div class="col-auto">
+                        <label class="text"><img src="uber.png" class="Icones"
+                                alt="imagem de carro uber"><br><strong>Uber</strong></label>
+                        <input type="number" class="form-control" id="uber" name="Uber" placeholder="0">
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-primary" value="uberCont"
+                            onclick="contadorUber()">+</button>
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <label for="Observação" class="form-label">Observação</label>
+                        <textarea class="form-control" name="Observação" rows="3"></textarea>
+                    </div>
+
+                    <div class="col-auto">
+                        <button type="submit" onclick="cadastroRealizado()" class="btn btn-primary">Finalizar</button>
+                    </div>
+                    <div class="logoWhite"><img class="logoWhite"
+                            src="rno_logo-branco.png" alt="Logo RNO branca">
+                    </div>
+
+
+                </form>
+            </DIV>
+        </div>
+
+
+
+
+
+    </div>
+
+    <script>
+        function cadastroRealizado() {
+            const alertTrigger = Function;
+            alert("Dados enviados com Sucesso!");
+        }
+    </script>
+
+    <script>
+        let contagem = 0;
+        function contadorCarros() {
+            contagem = contagem + 1;
+            document.getElementById('carros').value = contagem;
+
+            console.writeline(input);
+
+        };
+        let motosCont = 0;
+        function contadorMotos() {
+            motosCont = motosCont + 1;
+            document.getElementById('moto').value = motosCont;
+
+            console.writeline(input);
+
+        };
+        let biciletaCont = 0;
+        function contadorBicicleta() {
+            biciletaCont = biciletaCont + 1;
+            document.getElementById('bicicleta').value = biciletaCont;
+            console.writeline(input);
+
+        };
+        let uberCont = 0
+        function contadorUber() {
+            uberCont = uberCont + 1;
+            document.getElementById('uber').value = uberCont;
+
+            console.writeline(input);
+
+        };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
