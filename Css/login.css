@@ -1,0 +1,25 @@
+@import url(Lideres.css);
+
+.tituloLogin {
+    text-align: center !important;
+    color: var(--cor-titulos) !important;
+}
+
+.form-control {
+    width: 90% !important;
+    height: 38px !important;
+   align-items: center !important;
+    line-height: 1.42857143 !important;
+
+    
+}
+.coracaoBranco{
+    width: 95px;
+    margin-left: 190px;
+}
+
+.form-group{
+    line-height: 1.42857143 !important;
+    margin-left: 35px !important;
+    
+}

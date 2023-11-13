@@ -1,0 +1,20 @@
+@import url(mobile.css);
+
+
+
+.tituloEventos{
+ color: var(--cor-titulos) !important;
+}
+.linhaTitulo{
+    
+    margin: -18px 0px 0px 320px;
+}
+.card-text{
+    text-align: center !important;
+}
+.card{
+    margin: 0px 0px 0px 10px;
+}
+.flex-shrink-0{
+    width: 345px;
+}
