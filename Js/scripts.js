@@ -68,10 +68,19 @@ function cadastroRealizado() {
       console.writeline(input);
 
   };
-  let uberCont = 0
+  let uberCont = 0;
   function contadorUber() {
       uberCont = uberCont + 1;
       document.getElementById('uber').value = uberCont;
+
+      console.writeline(input);
+
+  };
+
+  let personCont = 0;
+  function contadorPessoas() {
+      personCont = personCont + 1;
+      document.getElementById('pessoas').value = personCont;
 
       console.writeline(input);
 
