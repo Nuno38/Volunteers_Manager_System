@@ -85,3 +85,21 @@ function cadastroRealizado() {
       console.writeline(input);
 
   };
+
+  let childrenCont = 0;
+  function contadorChildren() {
+      childrenCont = childrenCont + 1;
+      document.getElementById('children').value = childrenCont;
+
+      console.writeline(input);
+
+  };
+
+  let adultosCont = 0;
+  function contadorAdultos() {
+      adultosCont = adultosCont + 1;
+      document.getElementById('adultos').value = adultosCont;
+
+      console.writeline(input);
+
+  };
