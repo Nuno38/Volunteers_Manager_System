@@ -61,7 +61,7 @@
 }
 
 .Logo-reino {
-    width: 60px;
+    width: 50px;
     margin-top: 0px;
 }
 
@@ -111,12 +111,4 @@
     80% {
         background-position: 0% 70%;
     }
-}
-/* Reports */
-
-.Icones{
-    width: 45px !important;
-}
-.Icone{
-    width: 75px !important;
 }

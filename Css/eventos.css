@@ -1,4 +1,4 @@
-@import url(mobile.css);
+@import url(volunteer.css);
 
 
 
@@ -17,4 +17,11 @@
 }
 .flex-shrink-0{
     width: 345px;
+}
+.Icones{
+    width: 35px !important;
+}
+.input{
+   width: 155px ;
+   
 }

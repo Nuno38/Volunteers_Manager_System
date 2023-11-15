@@ -1,5 +1,3 @@
-
-
 /*Tablet*/
 @media(max-width: 1030px){
 
@@ -10,10 +8,6 @@
         --tamanho_letra_segundaria:25px;
         --tamanho-titulos:40px;
         --cor-menu:black;
-        
-    }
-
-    .navbar{
         
     }
 
