@@ -63,7 +63,7 @@
 
         <h1 class="form-titulo"> QUEREMOS TE CONHECER</h1>
         <br>
-        <form class="form-volunteer" action="https://api.sheetmonkey.io/form/mSFvk3UHHxduAbb7v1hV99" method="post">
+        <form class="form-volunteer"  id="form" action="https://api.sheetmonkey.io/form/mSFvk3UHHxduAbb7v1hV99" method="post">
 
           <form class="row gx-3 gy-2 align-items-center">
             <div class="col-md-8">
@@ -190,6 +190,12 @@
               <label class="form-check-label" for="style">Style</label>
             </div>
 
+            <div class="form-check form-check-inline">
+              <input class="form-check-input"  onclick="escolha()" type="checkbox" name="TEAM"
+                value="Recap">
+              <label class="form-check-label" for="Recap">Recap</label>
+            </div>
+
             <hr>
 
             <div class="form-check form-check-inline">
@@ -237,7 +243,7 @@
             <br>
             <br>
             <br>
-
+              <div id="date"></div>
             <div class="mb-3">
               <label for="Observação" class="form-label">Observação</label>
               <textarea class="form-control" name="Observação" rows="3"></textarea>
