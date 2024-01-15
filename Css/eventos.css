@@ -1,27 +1,51 @@
 @import url(volunteer.css);
 
+.tituloEventos {
+  color: var(--cor-titulos) !important;
+}
+.linhaTitulo {
+  margin: -18px 0px 0px 320px;
+}
+.card-text {
+  text-align: center !important;
+}
+.card {
+  margin: 0px 0px 0px 10px;
+}
+.flex-shrink-0 {
+  width: 345px;
+}
+.Icones {
+  width: 35px !important;
+}
+.input {
+  width: 155px;
+}
+#img {
+  width: 44rem !important;
+  height: 26rem !important;
+  align: 0px 0px 10px 0px;
+  border-radius: 60px;
+  border: 2px solid rgb(253, 249, 249);
+  border-bottom: -57px;
+  margin: 10px 0px 0px 0px;
+}
+.container {
+  margin-left: 8px !important;
+}
 
-
-.tituloEventos{
- color: var(--cor-titulos) !important;
-}
-.linhaTitulo{
-    
-    margin: -18px 0px 0px 320px;
-}
-.card-text{
-    text-align: center !important;
-}
-.card{
-    margin: 0px 0px 0px 10px;
-}
-.flex-shrink-0{
-    width: 345px;
-}
-.Icones{
-    width: 35px !important;
-}
-.input{
-   width: 155px ;
-   
+/* CellPhone  */
+@media (min-width: 300px) and (max-width: 700px) {
+  #img {
+    width: 23rem !important;
+    height: 16rem !important;
+    align: 0px 0px 10px 0px;
+    border-radius: 60px;
+    border: 2px solid rgb(253, 249, 249);
+    border-bottom: -57px;
+    margin: 0px 0px 0px -15px;
+  }
+  .container {
+    margin-left: 8px !important;
+  }
 }
