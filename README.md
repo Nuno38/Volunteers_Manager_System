@@ -61,4 +61,5 @@ Queda de energia da celesc	Eminente
 |Desenvolvimento de sistema:	28/09/23 - 15/10/23|
 |Der e Mer:	22/09/23 - 24/09/23|
 |Fluxo grama:	17/09/23 - 19/09/2023|
+.
 
